@@ -13,7 +13,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest
 class TechForumApplicationTests {
 
-	// TODO Review whether field autowiring is acceptable in tests and why
 	@Autowired private TechForumController techForumController;
 	@Autowired private TechForumEvent techForumEvent;
 	@Autowired private TechForumService techForumService;
